@@ -1,0 +1,4 @@
+United States#//#USD#//#US Dollar#//#1.000000
+European Union#//#EUR#//#Euro#//#0.920000
+United Kingdom#//#GBP#//#British Pound#//#0.780000
+Japan#//#JPY#//#Japanese Yen#//#150.000000
