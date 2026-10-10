@@ -32,6 +32,10 @@ The system simulates a small banking platform with the following capabilities:
 
 All bundled records are **fictional demo data** created for this public repository. The demonstration login is `demo.admin` with password `demo123`.
 
+## Security and Demo Data
+
+This is an educational application, not a secure banking system. The bundled credentials and records are public placeholders for local testing; never reuse them or enter real personal or financial information. Passwords are stored in plain text in local files, and the project does not implement production-grade password hashing, encryption, or security controls.
+
 ## Architecture
 
 ```text
@@ -94,8 +98,8 @@ The project also demonstrates the importance of persistence boundaries. Client, 
 1. Open `Lesson #01 - Find Client.sln` in Visual Studio on Windows.
 2. Build the solution with the available C++ configuration.
 3. Run the application from the project directory so that the relative data files are available.
-4. Use the demo credentials `demo.admin` and `demo123` to access the system.
+4. Use the public demo credentials `demo.admin` and `demo123` to access the system.
 
 ## Final Notes
 
-This repository is an educational project for practicing object-oriented design, console application architecture, file handling, permissions, banking transactions, and currency operations. It is not a production banking platform and contains no real financial records.
+This repository is an educational project for practicing object-oriented design, console application architecture, file handling, permissions, banking transactions, and currency operations. It contains no real financial records.
